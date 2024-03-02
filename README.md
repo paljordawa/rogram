@@ -1,4 +1,4 @@
-# [Rogram.app](https://rogram.app) Temporary Landing Page <picture>![./src/assets/rogram-logo-200x200.png](./src/assets/rogram-logo-200x200.png)</picture>
+# [Rogram.app](https://rogram.vercel.app) Temporary Landing Page <picture>![./src/assets/rogram-logo-200x200.png](./src/assets/rogram-logo-200x200.png)</picture>
 
 
 

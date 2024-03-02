@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
-import rogramLogo from "~/assets/rogram-logo.svg";
+import myImage from "../assets/rogram-logo-md.svg"; // Image is 1600x900
+import myImageBig from "../assets/rogram-logo-md-gradient.svg";
 import HeroImage from "~/components/hero-image.astro";
 import Starfield from "~/components/starfield.astro";
 
@@ -14,32 +15,22 @@ const sizes = "(min-width: 440px) 36vw, 56vw";
   <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40">
     <HeroImage />
   </div>
-  <div class="relative grid h-full place-items-center sm:grid-cols-2">
+  <div class="relative  h-full place-items-center sm:grid-cols-3">
     <h2
       class="flex flex-col items-center gap-2 self-end sm:gap-4 sm:self-auto sm:justify-self-end"
     >
-    <Image
-    class="h-full w-2/12 object-cover"
-    src={rogramLogo}
-    width={40}
-    
-    loading="eager"
-    alt="A floating astronaut in a space suit"
-  />
+    <div class="">
+      <Image src={myImageBig} alt="A description of my image." class="size-20 mt-60"/>
+    </div>
       <div
-        class="gradient-text text-center font-extrabold tracking-tighter text-8xl"
+        class="gradient-text text-center font-extrabold tracking-tighter text-8xl "
       >
         Rogram
         <br /> is coming,
         <br /> Closer to you.
+       
       </div>
     </h2>
-    <div
-      id="astronaut"
-      class="w-2/3 max-w-3xl self-start sm:w-10/12 sm:self-auto sm:justify-self-start"
-    >
-  
-    </div>
   </div>
 </section>
 

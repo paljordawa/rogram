@@ -1,6 +1,8 @@
 ---
 import { Icon } from "astro-icon/components";
-
+import { Image } from "astro:assets";
+import myImage from "../assets/rogram-logo-md.svg"; // Image is 1600x900
+import myImageBig from "../assets/rogram-logo-md-gradient.svg";
 
 
 import ThemeSwitcher from "~/components/theme-switcher.astro";
@@ -61,7 +63,8 @@ const navItems: Array<NavItem> = [
             </button>
           </header>
           <div class="flex justify-center">
-            <Icon name="logomark" class="size-16" />
+            <Image src={myImageBig} alt="A description of my image." class="size-10 mt-60" id="logo"/>
+
           </div>
           <nav>
             <ul class="flex flex-col">

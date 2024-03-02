@@ -1,4 +1,4 @@
-# [Rogram.app](https://rogram.app) Temporary Landing Page <picture>![./src/assets/rogram-logo-200x200.png](./src/assets/rogram-logo-200x200.png)<img align="right" valign="center" height="79" width="63" src="./src/assets/rogram-logo-200x200.png" alt="Astro logo" /></picture>
+# [Rogram.app](https://rogram.app) Temporary Landing Page <picture>![./src/assets/rogram-logo-200x200.png](./src/assets/rogram-logo-200x200.png)</picture>
 
 
 

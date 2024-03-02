@@ -20,13 +20,13 @@ const sizes = "(min-width: 440px) 36vw, 56vw";
       class="flex flex-col items-center gap-2 self-end sm:gap-4 sm:self-auto sm:justify-self-end"
     >
     <div class="">
-      <Image src={myImageBig} alt="A description of my image." class="size-20 mt-60"/>
+      <Image src={myImageBig} alt="A description of my image." class="size-20 mt-60" id="logo"/>
     </div>
       <div
         class="gradient-text text-center font-extrabold tracking-tighter text-8xl "
       >
         Rogram
-        <br /> is coming,
+        <br /> is coming soon,
         <br /> Closer to you.
        
       </div>
@@ -53,8 +53,8 @@ const sizes = "(min-width: 440px) 36vw, 56vw";
     }
   }
 
-  #astronaut {
-    animation: float linear 2.5s infinite alternate;
+  #logo {
+    animation: float ease-in .5s infinite alternate;
   }
 
   @media (prefers-reduced-motion: reduce) {
